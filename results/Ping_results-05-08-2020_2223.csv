@@ -1,0 +1,28 @@
+Search-Item, Online, Office, IP Address, Avg Ping (ms), Hostname
+devin-ThinkPad-T480s,True,localhost,127.0.1.1,0.064,('devin-ThinkPad-T480s', [], ['127.0.1.1'])
+192.168.0.33,True,Local IP Address,192.168.0.33,6.495,('PS4-2D6875.local', [], ['192.168.0.33'])
+ijfdaljfslkjfdlkjfda,False,N/A,N/A,0,N/A
+jfdalsfdlkjfdsa,False,N/A,N/A,0,N/A
+dkfjlafkjdkjfda,False,N/A,N/A,0,N/A
+dkjsalfjalfd,False,N/A,N/A,0,N/A
+fdijaosfj,False,N/A,N/A,0,N/A
+dfalkjdsajflsaljf,False,N/A,N/A,0,N/A
+google.com,True,Other,172.217.0.46,58.713,('sfo07s26-in-f14.1e100.net', [], ['172.217.0.46'])
+192.168.0.67,True,Local IP Address,192.168.0.67,60.414,N/A
+youtube.com,True,Other,216.58.194.206,62.580,('sfo03s01-in-f14.1e100.net', [], ['216.58.194.206'])
+en.wikipedia.org,True,Other,198.35.26.96,41.066,('text-lb.ulsfo.wikimedia.org', [], ['198.35.26.96'])
+twitter.com,True,Other,104.244.42.1,38.083,N/A
+facebook.com,True,Other,157.240.22.35,34.004,('edge-star-mini-shv-01-sjc3.facebook.com', [], ['157.240.22.35'])
+amazon.com,True,Other,176.32.103.205,105.544,N/A
+yelp.com,True,Other,104.16.56.23,36.181,N/A
+devin-ThinkPad-T480s,True,localhost,127.0.1.1,0.064,('devin-ThinkPad-T480s', [], ['127.0.1.1'])
+devin-ThinkPad-T480s,True,localhost,127.0.1.1,0.064,('devin-ThinkPad-T480s', [], ['127.0.1.1'])
+youtube.com,True,Other,216.58.194.206,62.580,('sfo03s01-in-f14.1e100.net', [], ['216.58.194.206'])
+en.wikipedia.org,True,Other,198.35.26.96,41.066,('text-lb.ulsfo.wikimedia.org', [], ['198.35.26.96'])
+twitter.com,True,Other,104.244.42.1,38.083,N/A
+facebook.com,True,Other,157.240.22.35,34.004,('edge-star-mini-shv-01-sjc3.facebook.com', [], ['157.240.22.35'])
+amazon.com,True,Other,176.32.103.205,105.544,N/A
+yelp.com,True,Other,104.16.56.23,36.181,N/A
+reddit.com,True,Other,151.101.129.140,35.670,N/A
+imdb.com,True,Other,52.94.237.74,104.460,N/A
+fandom.com,True,Other,151.101.128.194,35.447,N/A

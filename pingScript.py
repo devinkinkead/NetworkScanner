@@ -102,18 +102,20 @@ class Ping(Thread):
         else:
             office = 'N/A'
             address = 'N/A'
+        try:
+            tmp_nme = socket.gethostbyaddr(address)
+            host_nme = tmp_nme[0]
+        except (socket.herror, socket.gaierror, IndexError):
+            host_nme = 'N/A'
+        # print(host_nme)
+        results[self.host] = f'{online},{office},{address},{average},{host_nme}'
 
-        results[self.host] = f'{online},{office},{address},{average}'
-        #try:
-            #print(socket.gethostbyaddr(add))
-        #except socket.herror:
-            #pass
 
 if systemType not in validSystem:
     print('Program not configured for current OS. Exiting...')
     exit()
 
-file = 'no'
+file = 'yes'
 if file == 'yes':
     try:
         comp_file_name = 'computers.txt'
@@ -155,7 +157,7 @@ fileName = f'Ping_results-{time}.csv'
 
 # Saves ping results
 with open(f'results/{fileName}', 'w') as fp:
-    fp.write("Computer, Online, Office, IP Address, Avg Ping (ms)\n")
+    fp.write("Search-Item, Online, Office, IP Address, Avg Ping (ms), Hostname\n")
     for computer in computers:
         line = f'{computer},{results[computer]}'
         fp.write(line)
