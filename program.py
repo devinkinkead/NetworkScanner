@@ -1,4 +1,4 @@
-# Author: Devin Kinkead
+# Author: Devin Kinkea
 import subprocess
 import platform
 import os
@@ -13,6 +13,7 @@ results = dict()
 computers = list()
 threads = list()
 schema = {'Local IP Address': '192.168', 'localhost': '127.0.1.1'}
+file = 'yes'
 
 
 # Maximum number of threads to run at once
@@ -114,7 +115,6 @@ if systemType not in validSystem:
     print('Program not configured for current OS. Exiting...')
     exit()
 
-file = 'yes'
 if file == 'yes':
     try:
         comp_file_name = 'computers.txt'
